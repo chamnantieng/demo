@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+  font-size: 22px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #2bb673;
+}
+
+.image{
+    background-image: url(./photo/homepage.png);
+    height: 500px;
+    position: relative;
+    min-width: 400px;
+    overflow: hidden;
+}
+.search{
+    position: absolute;
+    top: 150px;
+    left: 30%;
+   
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 8px;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-wrapper {
+  padding: 8px;
+  width: calc(33.33% - 16px);
+}
+
+.card {
+  background-color: rgb(223, 223, 218);
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 40px;
+  
+}
+
+</style>
+
+
+</head>
+<body>
+<div style="background-color: #1a5276; border: hidden ; height: 50px;"></div>
+<div class="menu">
+    <div class="logo" style="padding-left: 50px; width: 50%; padding-top: 10px; padding-bottom: 5px;">
+    <img src="./photo/HBS NOTARY LOGO.png" style="width: 90px; height: 100px;">
+    </div>
+    <div style="padding-left: 50px; width: 50%;">
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    </div>
+</div>
+<div>
+        <div class="image">
+            <div class="search">
+            <input type="text" placeholder="Search.." name="search" style="height: 40px; width: 500px;">
+            </div>
+        </div>
+    </div>
+    <div class="card-row">
+            <div class="card-wrapper">
+                <div class="photo">
+                <div class="card"><img src="./photo/Channou.png"></div>
+                </div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card"><img src="./photo/Hary.jpg"></div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card"><img src="./photo/Meng-Chou.png"></div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card"><img src="./photo/Mustafa-Koca.jpg"></div>
+              </div>
+              <div class="card-wrapper">
+                  <div class="card"></div>
+              </div>
+              <div class="card-wrapper">
+                  <div class="card"></div>
+              </div>
+              <div class="card-wrapper">
+                <div class="card"></div>
+              </div>
+              <div class="card-wrapper">
+                  <div class="card"></div>
+              </div>
+              <div class="card-wrapper">
+                  <div class="card"></div>
+              </div>
+              <div class="card-wrapper">
+                  <div class="card"></div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card"></div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card"></div>
+                </div>
+    </div>
+</body>
+</html>
